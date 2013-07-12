@@ -1,0 +1,234 @@
+/*
+Blender CSS
+----------------------------------------------------
+Author: Johanna Ruiz
+Date: 7/11/13
+MIT license (http://www.opensource.org/licenses/mit-license.php) 
+----------------------------------------------------
+*/
+/*blend mode classes*/
+/*blend-mode*/
+.normal {
+  -webkit-blend-mode: normal;
+  -moz-blend-mode: normal;
+  -o-blend-mode: normal;
+  -ms-blend-mode: normal;
+  blend-mode: normal; }
+
+.multiply {
+  -webkit-blend-mode: multiply;
+  -moz-blend-mode: multiply;
+  -o-blend-mode: multiply;
+  -ms-blend-mode: multiply;
+  blend-mode: multiply; }
+
+.screen {
+  -webkit-blend-mode: screen;
+  -moz-blend-mode: screen;
+  -o-blend-mode: screen;
+  -ms-blend-mode: screen;
+  blend-mode: screen; }
+
+.overlay {
+  -webkit-blend-mode: overlay;
+  -moz-blend-mode: overlay;
+  -o-blend-mode: overlay;
+  -ms-blend-mode: overlay;
+  blend-mode: overlay; }
+
+.darken {
+  -webkit-blend-mode: darken;
+  -moz-blend-mode: darken;
+  -o-blend-mode: darken;
+  -ms-blend-mode: darken;
+  blend-mode: darken; }
+
+.lighten {
+  -webkit-blend-mode: lighten;
+  -moz-blend-mode: lighten;
+  -o-blend-mode: lighten;
+  -ms-blend-mode: lighten;
+  blend-mode: lighten; }
+
+.color-dodge {
+  -webkit-blend-mode: color-dodge;
+  -moz-blend-mode: color-dodge;
+  -o-blend-mode: color-dodge;
+  -ms-blend-mode: color-dodge;
+  blend-mode: color-dodge; }
+
+.color-burn {
+  -webkit-blend-mode: color-burn;
+  -moz-blend-mode: color-burn;
+  -o-blend-mode: color-burn;
+  -ms-blend-mode: color-burn;
+  blend-mode: color-burn; }
+
+.hard-light {
+  -webkit-blend-mode: hard-light;
+  -moz-blend-mode: hard-light;
+  -o-blend-mode: hard-light;
+  -ms-blend-mode: hard-light;
+  blend-mode: hard-light; }
+
+.soft-light {
+  -webkit-blend-mode: soft-light;
+  -moz-blend-mode: soft-light;
+  -o-blend-mode: soft-light;
+  -ms-blend-mode: soft-light;
+  blend-mode: soft-light; }
+
+.difference {
+  -webkit-blend-mode: difference;
+  -moz-blend-mode: difference;
+  -o-blend-mode: difference;
+  -ms-blend-mode: difference;
+  blend-mode: difference; }
+
+.exclusion {
+  -webkit-blend-mode: exclusion;
+  -moz-blend-mode: exclusion;
+  -o-blend-mode: exclusion;
+  -ms-blend-mode: exclusion;
+  blend-mode: exclusion; }
+
+.hue {
+  -webkit-blend-mode: hue;
+  -moz-blend-mode: hue;
+  -o-blend-mode: hue;
+  -ms-blend-mode: hue;
+  blend-mode: hue; }
+
+.saturation {
+  -webkit-blend-mode: saturation;
+  -moz-blend-mode: saturation;
+  -o-blend-mode: saturation;
+  -ms-blend-mode: saturation;
+  blend-mode: saturation; }
+
+.color {
+  -webkit-blend-mode: color;
+  -moz-blend-mode: color;
+  -o-blend-mode: color;
+  -ms-blend-mode: color;
+  blend-mode: color; }
+
+.luminosity {
+  -webkit-blend-mode: luminosity;
+  -moz-blend-mode: luminosity;
+  -o-blend-mode: luminosity;
+  -ms-blend-mode: luminosity;
+  blend-mode: luminosity; }
+
+/*background-blend-mode*/
+.bg-normal {
+  -webkit-background-blend-mode: normal;
+  -moz-background-blend-mode: normal;
+  -o-background-blend-mode: normal;
+  -ms-background-blend-mode: normal;
+  background-blend-mode: normal; }
+
+.bg-multiply {
+  -webkit-background-blend-mode: multiply;
+  -moz-background-blend-mode: multiply;
+  -o-background-blend-mode: multiply;
+  -ms-background-blend-mode: multiply;
+  background-blend-mode: multiply; }
+
+.bg-screen {
+  -webkit-background-blend-mode: screen;
+  -moz-background-blend-mode: screen;
+  -o-background-blend-mode: screen;
+  -ms-background-blend-mode: screen;
+  background-blend-mode: screen; }
+
+.bg-overlay {
+  -webkit-background-blend-mode: overlay;
+  -moz-background-blend-mode: overlay;
+  -o-background-blend-mode: overlay;
+  -ms-background-blend-mode: overlay;
+  background-blend-mode: overlay; }
+
+.bg-darken {
+  -webkit-background-blend-mode: darken;
+  -moz-background-blend-mode: darken;
+  -o-background-blend-mode: darken;
+  -ms-background-blend-mode: darken;
+  background-blend-mode: darken; }
+
+.bg-lighten {
+  -webkit-background-blend-mode: lighten;
+  -moz-background-blend-mode: lighten;
+  -o-background-blend-mode: lighten;
+  -ms-background-blend-mode: lighten;
+  background-blend-mode: lighten; }
+
+.bg-color-dodge {
+  -webkit-background-blend-mode: color-dodge;
+  -moz-background-blend-mode: color-dodge;
+  -o-background-blend-mode: color-dodge;
+  -ms-background-blend-mode: color-dodge;
+  background-blend-mode: color-dodge; }
+
+.bg-color-burn {
+  -webkit-background-blend-mode: color-burn;
+  -moz-background-blend-mode: color-burn;
+  -o-background-blend-mode: color-burn;
+  -ms-background-blend-mode: color-burn;
+  background-blend-mode: color-burn; }
+
+.bg-hard-light {
+  -webkit-background-blend-mode: hard-light;
+  -moz-background-blend-mode: hard-light;
+  -o-background-blend-mode: hard-light;
+  -ms-background-blend-mode: hard-light;
+  background-blend-mode: hard-light; }
+
+.bg-soft-light {
+  -webkit-background-blend-mode: soft-light;
+  -moz-background-blend-mode: soft-light;
+  -o-background-blend-mode: soft-light;
+  -ms-background-blend-mode: soft-light;
+  background-blend-mode: soft-light; }
+
+.bg-difference {
+  -webkit-background-blend-mode: difference;
+  -moz-background-blend-mode: difference;
+  -o-background-blend-mode: difference;
+  -ms-background-blend-mode: difference;
+  background-blend-mode: difference; }
+
+.bg-exclusion {
+  -webkit-background-blend-mode: exclusion;
+  -moz-background-blend-mode: exclusion;
+  -o-background-blend-mode: exclusion;
+  -ms-background-blend-mode: exclusion;
+  background-blend-mode: exclusion; }
+
+.bg-hue {
+  -webkit-background-blend-mode: hue;
+  -moz-background-blend-mode: hue;
+  -o-background-blend-mode: hue;
+  -ms-background-blend-mode: hue;
+  background-blend-mode: hue; }
+
+.bg-saturation {
+  -webkit-background-blend-mode: saturation;
+  -moz-background-blend-mode: saturation;
+  -o-background-blend-mode: saturation;
+  -ms-background-blend-mode: saturation;
+  background-blend-mode: saturation; }
+
+.bg-color {
+  -webkit-background-blend-mode: color;
+  -moz-background-blend-mode: color;
+  -o-background-blend-mode: color;
+  -ms-background-blend-mode: color;
+  background-blend-mode: color; }
+
+.bg-luminosity {
+  -webkit-background-blend-mode: luminosity;
+  -moz-background-blend-mode: luminosity;
+  -o-background-blend-mode: luminosity;
+  -ms-background-blend-mode: luminosity;
+  background-blend-mode: luminosity; }

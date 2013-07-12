@@ -1,0 +1,174 @@
+/*
+Blender CSS
+----------------------------------------------------
+Author: Johanna Ruiz
+Date: 7/11/13
+MIT license (http://www.opensource.org/licenses/mit-license.php) 
+----------------------------------------------------
+*/
+
+//Mixins & Variables
+// vendor prefixes for mix-blend-mode
+@mixin vp-mbm($var){
+  -webkit-mix-blend-mode: $var;
+  -moz-mix-blend-mode: $var;
+  -o-mix-blend-mode: $var;
+  -ms-mix-blend-mode: $var;
+  mix-blend-mode: $var;
+}
+
+// vendor prefixes for blend-mode
+@mixin vp-bm($var){
+  -webkit-blend-mode: $var;
+  -moz-blend-mode: $var;
+  -o-blend-mode: $var;
+  -ms-blend-mode: $var;
+  blend-mode: $var;
+}
+
+// vendor prefixes for background-blend-mode
+@mixin vp-bgbm($var){
+  -webkit-background-blend-mode: $var;
+  -moz-background-blend-mode: $var;
+  -o-background-blend-mode: $var;
+  -ms-background-blend-mode: $var;
+  background-blend-mode: $var;
+}
+
+// blend-mode(s) with properties
+
+// regular blend mode Mixin
+@mixin normal{
+  @include vp-bm(normal);
+}
+@mixin multiply{
+  @include vp-bm(multiply);
+}
+@mixin screen{
+  @include vp-bm(screen);
+}
+@mixin overlay{
+  @include vp-bm(overlay);
+}
+@mixin darken{
+  @include vp-bm(darken);
+}
+@mixin lighten{
+  @include vp-bm(lighten);
+}
+@mixin color-dodge{
+  @include vp-bm(color-dodge);
+}
+@mixin color-burn{
+  @include vp-bm(color-burn);
+}
+@mixin hard-light{
+  @include vp-bm(hard-light);
+}
+@mixin soft-light{
+  @include vp-bm(soft-light);
+}
+@mixin difference{
+  @include vp-bm(difference);
+}
+@mixin exclusion{
+  @include vp-bm(exclusion);
+}
+@mixin hue{
+  @include vp-bm(hue);
+}
+@mixin saturation{
+  @include vp-bm(saturation);
+}
+@mixin color{
+  @include vp-bm(color);
+}
+@mixin luminosity{
+  @include vp-bm(luminosity);
+}
+
+// background-blend-mode Mixin
+@mixin bg-normal{
+  @include vp-bgbm(normal);
+}
+@mixin bg-multiply{
+  @include vp-bgbm(multiply);
+}
+@mixin bg-screen{
+  @include vp-bgbm(screen);
+}
+@mixin bg-overlay{
+  @include vp-bgbm(overlay);
+}
+@mixin bg-darken{
+  @include vp-bgbm(darken);
+}
+@mixin bg-lighten{
+  @include vp-bgbm(lighten);
+}
+@mixin bg-color-dodge{
+  @include vp-bgbm(color-dodge);
+}
+@mixin bg-color-burn{
+  @include vp-bgbm(color-burn);
+}
+@mixin bg-hard-light{
+  @include vp-bgbm(hard-light);
+}
+@mixin bg-soft-light{
+  @include vp-bgbm(soft-light);
+}
+@mixin bg-difference{
+  @include vp-bgbm(difference);
+}
+@mixin bg-exclusion{
+  @include vp-bgbm(exclusion);
+}
+@mixin bg-hue{
+  @include vp-bgbm(hue);
+}
+@mixin bg-saturation{
+  @include vp-bgbm(saturation);
+}
+@mixin bg-color{
+  @include vp-bgbm(color);
+}
+@mixin bg-luminosity{
+  @include vp-bgbm(luminosity);
+}
+/*blend mode classes*/
+/*blend-mode*/
+.normal{ @include normal; }
+.multiply{ @include multiply; }
+.screen{ @include screen; }
+.overlay{ @include overlay; }
+.darken{ @include darken; }
+.lighten{ @include lighten; }
+.color-dodge{ @include color-dodge; }
+.color-burn{ @include color-burn; }
+.hard-light{ @include hard-light; }
+.soft-light{ @include soft-light; }
+.difference{ @include difference; }
+.exclusion{ @include exclusion; }
+.hue{ @include hue; }
+.saturation{ @include saturation; }
+.color{ @include color; }
+.luminosity{ @include luminosity; }
+
+/*background-blend-mode*/
+.bg-normal{ @include bg-normal; }
+.bg-multiply{ @include bg-multiply; }
+.bg-screen{ @include bg-screen; }
+.bg-overlay{ @include bg-overlay; }
+.bg-darken{ @include bg-darken; }
+.bg-lighten{ @include bg-lighten; }
+.bg-color-dodge{ @include bg-color-dodge; }
+.bg-color-burn{ @include bg-color-burn; }
+.bg-hard-light{ @include bg-hard-light; }
+.bg-soft-light{ @include bg-soft-light; }
+.bg-difference{ @include bg-difference; }
+.bg-exclusion{ @include bg-exclusion; }
+.bg-hue{ @include bg-hue; }
+.bg-saturation{ @include bg-saturation; }
+.bg-color{ @include bg-color; }
+.bg-luminosity{ @include bg-luminosity; }
